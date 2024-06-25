@@ -2,6 +2,10 @@
 
 ## unreleased
 
+## 2.53.1 / 2024-06-25
+
+This release constains security fixes in dependencies
+
 ## 2.53.0 / 2024-06-16
 
 This release changes the default for GOGC, the Go runtime control for the trade-off between excess memory use and CPU usage. We have found that Prometheus operates with minimal additional CPU usage, but greatly reduced memory by adjusting the upstream Go default from 100 to 75.
